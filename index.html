@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/main.js" defer></script>
+    <title>Allyse's Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="col">
+            <h1 class="title">What's the weather like?</h1>
+          </div>
+          <div class="row"></div>  
+            <form>
+              <input type="text" name="city" id="city" placeholder="Enter a City">
+
+              <button type="button" onclick="getWeather()">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      
+      <div class="gallery">
+        <!-- Weather Boxes -->
+        <div class="highBox">
+            <div class="highTitle box_title"></div>
+            <h1 class="high"></h1>
+        </div>
+
+        <div class="cityBox">
+            <div class="city"></div>
+            <h1 class="cityTitle"></h1>
+        </div>
+
+        <div class="feelsLikeBox"> 
+            <div class="feelsLikeTitle box_title"></div>
+            <h1 class="feelsLike"></h1>       
+        </div>
+
+        <div class="lowBox">
+            <div class="lowTitle box_title"></div>
+            <h1 class="low"></h1>
+        </div>
+
+        <div class="currentTempBox">
+            <div class="currentTempTitle box_title"></div>
+            <h2 class="currentTemp"></h2>
+        </div>
+
+        <div class="descriptionBox">
+            <div class="descriptionTitle box_title"></div>
+            <h1 class="description"></h1>
+        </div>
+
+        <div class="humidityBox">
+            <div class="humidityTitle box_title"></div>
+            <h1 class="humidity"></h1>
+        </div>
+     
+      </div>
+    </div>
+    <div id="background-wrap">
+        <div class="x1">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x2">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x3">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x4">
+            <div class="cloud"></div>
+        </div>
+    
+        <div class="x5">
+            <div class="cloud"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
