@@ -59,7 +59,7 @@ h2 {
   grid-row-start: 1;
   grid-row-end: 4;
   border-radius: 25px;
-  border-style: dashed;
+  border-style: solid;
 }
 .cityBox {
   font-size: 1vw;
@@ -70,7 +70,7 @@ h2 {
   grid-row-start: 1;
   grid-row-end: 3;
   border-radius: 25px;
-  border-style: dashed;
+  border-style: solid;
 }
 .feelsLikeBox {
   font-size: 1vw;
@@ -107,7 +107,7 @@ h2 {
   grid-row-start: 3;
   grid-row-end: 8;
   border-radius: 25px;
-  border-style: dashed;
+  border-style: solid;
 }
 
 .descriptionBox {
@@ -120,7 +120,7 @@ h2 {
   grid-row-start: 3;
   grid-row-end: 8;
   border-radius: 25px;
-  border-style: dashed;
+  border-style: solid;
 }
 
 .humidityBox {
@@ -133,7 +133,7 @@ h2 {
   grid-row-start: 4;
   grid-row-end: 8;
   border-radius: 25px;
-  border-style: dashed;
+  border-style: solid;
 }
 
 #background-wrap {
