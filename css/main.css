@@ -10,14 +10,16 @@ body {
 
 input {
   width: 30%;
-  height: 50px;
-  font-size: 30px;
+  height: 4vw;
+  font-size: 3vw;
+  vertical-align: middle;
 }
 
 button {
-  height: 50px;
-  font-size: 30px;
+  height: 4vw;
+  font-size: 2vw;
   background-color: pink;
+  vertical-align: middle;
 }
 
 .container {
@@ -62,7 +64,7 @@ h3 {
   grid-row-start: 1;
   grid-row-end: 5;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 .cityBox {
   background-color: orange;
@@ -71,7 +73,7 @@ h3 {
   grid-row-start: 1;
   grid-row-end: 4;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 .feelsLikeBox {
@@ -82,7 +84,7 @@ h3 {
   grid-row-start: 1;
   grid-row-end: 5;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 .lowBox {
@@ -95,7 +97,7 @@ h3 {
   grid-row-start: 5;
   grid-row-end: 9;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 .currentTempBox {
@@ -108,7 +110,7 @@ h3 {
   grid-row-start: 4;
   grid-row-end: 9;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 .descriptionBox {
@@ -120,7 +122,7 @@ h3 {
   grid-row-start: 4;
   grid-row-end: 9;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 .humidityBox {
@@ -133,7 +135,7 @@ h3 {
   grid-row-start: 5;
   grid-row-end: 9;
   border-radius: 25px;
-  border-style: solid;
+  box-shadow: 5px 10px 13px #000000;
 }
 
 #background-wrap {
