@@ -1,9 +1,9 @@
 body {
   font-family: "Dosis", sans-serif;
+  text-align: center;
   background: #00b4ff;
   color: #333;
   height: 100vh;
-  margin: 50px;
   padding: 0;
   overflow-x: hidden;
 }
@@ -23,6 +23,7 @@ button {
 }
 
 .container {
+  padding-top: 12%;
   width: 70%;
   text-align: center;
 }
@@ -31,8 +32,8 @@ button {
 .gallery {
   width: 70%;
   display: grid;
-  margin: 10rem auto;
-  text-align: center;
+  margin: 4rem auto;
+  justify-content: center;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(8, 3vw);
   grid-gap: 1.5rem;
