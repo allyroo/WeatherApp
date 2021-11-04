@@ -29,7 +29,7 @@ function getWeather() {
       document.querySelector(".currentTemp").innerHTML =
         Math.floor(data.main.temp) + "°F";
 
-      //   document.querySelector(".descriptionTitle").innerHTML = "Description";
+      document.querySelector(".descriptionTitle").innerHTML = "Description";
       document.querySelector(".description").innerHTML =
         "<img src='http://openweathermap.org/img/wn/" +
         data.weather[0].icon +

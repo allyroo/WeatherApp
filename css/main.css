@@ -122,6 +122,10 @@ h3 {
   box-shadow: 5px 10px 13px #000000;
 }
 
+.description {
+  margin: -2vh;
+}
+
 .humidityBox {
   font-size: 1vw;
   width: 18vw;
