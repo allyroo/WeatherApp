@@ -3,49 +3,45 @@ body {
   text-align: center;
   background: #00b4ff;
   color: #333;
-  height: 10vh;
-  padding: 0;
-  overflow-x: hidden;
+}
+
+h1 {
+  padding-top: 10%;
+  font-size: 4vw;
+}
+
+#inputContainer {
+  display: flex;
+  justify-content: center;
 }
 
 input {
-  width: 30%;
-  height: 4vw;
-  font-size: 3vw;
-  vertical-align: middle;
+  font-size: 5vw;
 }
 
 button {
-  height: 4vw;
-  font-size: 2vw;
+  font-size: 5vw;
   background-color: pink;
-  vertical-align: middle;
-}
-
-.container {
-  padding-top: 12%;
-  width: 70%;
-  text-align: center;
 }
 
 /* creating grid */
-.gallery {
+#gallery,
+.show {
   width: 70%;
   display: grid;
   margin: 4rem auto;
-  justify-content: center;
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(8, 3vw);
   grid-gap: 1.5rem;
 }
 
+#gallery {
+  display: none;
+}
+
 .box_title {
   margin: 10%;
   font-size: 2vw;
-}
-
-h1 {
-  font-size: 4vw;
 }
 
 h2 {
@@ -230,7 +226,7 @@ h3 {
   transform: scale(0.55);
 }
 
-/* OBJECTS */
+/* clouds */
 
 .cloud {
   background: #fff;

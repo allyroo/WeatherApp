@@ -1,12 +1,15 @@
 let cityName;
+
 const api_key = "8dff5120b988963211274a0c6aaaf522";
 
-async function getWeather() {
+function getWeather() {
   let cityName = document.getElementById("city").value;
+  document.getElementById("gallery").style.display = "grid";
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${api_key}&units=imperial`
   )
     .then((response) => response.json())
+
     .then((data) => {
       document.querySelector(".highTitle").innerHTML = "High";
       document.querySelector(".high").innerHTML =
