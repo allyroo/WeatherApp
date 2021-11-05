@@ -31,8 +31,8 @@ button {
   display: grid;
   margin: 4rem auto;
   grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(8, 3vw);
-  grid-gap: 1.5rem;
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 1rem;
 }
 
 #gallery {
